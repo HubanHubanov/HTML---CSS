@@ -1,0 +1,59 @@
+#news > h1 {
+    color: red;
+}
+
+#news article > h1 {
+    color: blue
+}
+
+#news article p {
+    color: green;
+}
+
+/* .red {
+    color: red;
+} */
+
+#news p > b.red {
+    color: red;
+}
+
+ #news span.date {
+    color: deeppink;
+}
+
+article > p {
+    font-size: 70px;
+}
+
+section > p {
+    font-size: 70px;
+}
+
+#news div {
+    color: gold;
+}
+
+#div {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#div2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#div3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#div4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style:oblique;
+}

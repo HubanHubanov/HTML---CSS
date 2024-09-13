@@ -1,0 +1,62 @@
+figure {
+    font-size: 22px;
+}
+
+img {
+    width:350px
+}
+
+body{
+    background-color: pink;
+}
+
+.one {
+    font-size: 40px;
+    font-style: italic;
+    color: green;
+}
+
+.two {
+    font-size: 45px;
+    font-style: oblique;
+    color: blue;
+}
+
+.three {
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    color: red;
+    background: turquoise;
+    width: 200px;
+    
+}
+
+#text {
+    padding: auto;
+}
+
+h1 {
+    color:blueviolet
+}
+
+.same {
+    font-size: 50px;
+    color: darkorange;
+    background: chartreuse;
+    width: 250px;
+}
+
+[href="https://www.google.bg/"] {
+    color:red
+}
+
+article > p {
+    font-size: 30px;
+    color: red;
+}
+
+div.hello {
+    color: red;
+}
+

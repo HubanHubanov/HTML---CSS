@@ -1,0 +1,19 @@
+article {
+    width: 250px;
+    background-color: none;
+
+}
+
+p {
+ text-shadow:2px 2px 5px green;
+
+}
+
+.p {
+    background:burlywood;
+    cursor: pointer;
+}
+
+div {
+    outline: 2px dotted red
+}
