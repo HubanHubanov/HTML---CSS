@@ -1,0 +1,28 @@
+h1 {
+    color: brown;
+}
+
+p {
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: yellow;
+    width: 230px;
+}
+
+#main-title {
+    color: red;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+li {
+    color: darkslateblue;
+}
+
+div.highlight  {
+    background-color: aquamarine;
+}

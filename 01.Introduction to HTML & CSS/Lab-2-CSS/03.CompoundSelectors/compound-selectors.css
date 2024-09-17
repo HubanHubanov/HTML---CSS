@@ -1,0 +1,25 @@
+p.color-size {
+    color: blue;
+    font-size: 20px;
+}
+
+#normal+div {
+    background-color: orange;
+    padding: 10px 15px 10px 15px;
+}
+
+.li-one {
+    color: lightblue
+}
+
+.li-two {
+    color:darkslategrey
+}
+
+.li-three {
+    color: darkred;
+}
+
+#fancy a {
+    color: orange;
+}
