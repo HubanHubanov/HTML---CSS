@@ -1,0 +1,12 @@
+header span {
+    font-weight: bold;
+}
+
+.comments {
+    background: grey;
+    color: white;
+}
+
+.comments article:nth-of-type(2) {
+    color: red;
+}

@@ -1,0 +1,12 @@
+.blog-post article header p {
+    color: rgb(161, 161, 165);
+}
+
+.blog-post article header p time {
+    font-style: italic;
+}
+
+span.author {
+    font-weight: bold;
+}
+
