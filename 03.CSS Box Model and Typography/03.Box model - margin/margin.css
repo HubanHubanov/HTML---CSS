@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;  
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+section {
+    border: 2px solid black;
+}
+
+div {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.uniform {
+    margin: 20px;
+
+}
+
+.non-uniform {
+    margin: 10px 30px 20px 40px;
+
+}
+
+.negative {
+    margin: -20px 10px 100px 10px;
+}

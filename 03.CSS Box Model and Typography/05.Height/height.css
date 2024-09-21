@@ -1,0 +1,27 @@
+section {
+    border: 2px solid black;
+}
+
+div {
+    border: 2px solid black;
+    margin: 10px 10px 20px 10px;
+    padding-left: 10px;
+    height: 400px;
+}
+
+.fixed {
+    height: 200px;
+}
+
+.percentage {
+    height: 50%
+}
+
+.viewport {
+    height: 50vh
+}
+
+.min-max {
+    min-height: 100px;
+    max-height: 300px;
+}
