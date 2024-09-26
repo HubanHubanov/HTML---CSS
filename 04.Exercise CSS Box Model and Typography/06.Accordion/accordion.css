@@ -1,0 +1,15 @@
+body {
+    border: 1px solid lightgray;
+    max-width: 70%;
+    margin: 10px auto;
+}
+
+details {
+    border: 1px solid lightgray;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+summary {
+    font-weight: 700;
+}

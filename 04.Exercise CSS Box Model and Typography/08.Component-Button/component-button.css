@@ -1,0 +1,48 @@
+div {
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.one, .five {
+    background: #D8D8D8;
+}
+
+.two {
+    background: #FF9B00;
+}
+
+.three {
+    background: #F9F9CC;
+}
+
+.four{
+    background: #FFFFFF;
+}
+
+
+.edit {
+    width: 60px;
+}
+
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+

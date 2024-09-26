@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+article {
+    width: 50vw;
+    border: 1px solid grey;
+    padding: 20px;
+   
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

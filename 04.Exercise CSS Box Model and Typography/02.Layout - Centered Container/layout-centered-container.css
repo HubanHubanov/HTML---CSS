@@ -1,0 +1,31 @@
+header, main, footer {
+    width: 488px;
+    height: 48px;
+    border: 2px solid black;
+    margin: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    box-sizing: content-box;
+    border: 2px solid blue;
+    width: fit-content;
+    position: flex;
+    padding: 20px
+}
+
+section {
+    display: flex;
+    border: 2px solid green;
+    padding: 20px;
+    justify-content: center;
+}
+
+body {
+    margin: 0px
+}
