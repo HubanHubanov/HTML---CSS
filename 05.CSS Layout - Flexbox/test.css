@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+div {
+    border: 1px solid black;
+    background-color: aqua;
+    width: 10rem;
+}
+p {
+    background-color: bisque;
+}
+section {
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content:center; */
+    /* align-items: stretc  ; */
+    /* align-content:  stretch; */
+}
+
+.one {
+    /* flex-grow: 1; */
+    align-self: stretch  ;
+}
+.two {
+    /* align-self: ; */
+}
+.three{
+    /* order: 1; */
+}
+.four{
+    /* flex -grow: 2; */
+}
+
