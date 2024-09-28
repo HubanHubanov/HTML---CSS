@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    border: 1pt solid grey;
+    background: #EEE;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+a {
+    border: 1px solid grey;
+    background: white;
+    color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+
