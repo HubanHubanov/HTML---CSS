@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/cef9250d3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="form-container">
+        <i class="fa-brands fa-github"></i>
+        <form action="https://github.com/search" method="get" class="position-relative" target="_blank">
+
+            <fieldset>
+                <legend class="small">Choose search type</legend>
+
+                <div>
+                    <input type="radio" id="repositories" name="type" value="repositories">
+                    <label for="repositories">Repositories</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="issues" name="type" value="issues">
+                    <label for="issues">Issues</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="pullrequests" name="type" value="pullrequests">
+                    <label for="pullrequests">Pullrequests</label>
+                </div>
+    
+            </fieldset>
+
+
+            <label for="search">What code are you searching today?</label>
+            <input type="search" id="search" name="q" required placeholder="Enter your search term">
+
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+            <input type="reset">
+        </form>
+    </div>
+
+</body>
+</html>
