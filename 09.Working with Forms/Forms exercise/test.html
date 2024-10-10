@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <form>
+
+        <!-- <fieldset class="column">
+
+            <legend>Personal Details</legend>
+
+            <label for="first-name" class="required">First Name</label>
+            <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
+
+            <label for="last-name" class="required">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
+
+            <label for="password" class="required">Password (min 6 chars)</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password" minlength="6">
+
+            <label for="email" >Email</label>
+            <input type="email" id="email" name="email"  placeholder="Enter your email" minlength="6">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone"  name="phone" placeholder="Enter your phone:  123-12-12-12" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+
+            <label for="height">Height</label>
+            <input type="number" id="height"  name="height" placeholder="Enter your height" min="110" max="250" value="180" step="0.5">
+
+            <label for="weight">Weight in KG</label>
+            <input type="range" id="weight"  name="weight" placeholder="Enter your weight" min="40" max="250"  step="5">
+
+            <label for="month">Birth month</label>
+            <input type="date" id="month"  name="month" placeholder="Enter your birth month">
+
+        </fieldset> -->
+
+        <fieldset>
+
+            <legend>Preferences</legend>
+
+
+            <div>
+
+                <p>What course would you like to join?</p>
+
+                <input type="radio" id="react" name="course-choise" value="React.js">
+                <label for="react">React.js</label>
+            
+                <input type="radio" id="next" name="course-choise" value="Next.js">
+                <label for="next">Next.js</label>
+
+            </div>
+            
+            <div>
+
+                <p>What is your choise for a back-end?</p>
+    
+                <input type="checkbox" id="python" name="back-end" value="Python">
+                <label for="python">Python</label>
+    
+                
+                <input type="checkbox" id="php" name="back-end" value="PHP">
+                <label for="php">PHP</label>
+    
+                <input type="checkbox" id="java" name="back-end" value="Java">
+                <label for="java">Java</label>
+
+            </div>
+
+            
+        </div>
+            <p>What is your favourite IDE?</p>
+            <select name="ide" id="ide-choice">
+                <option value="">Please choose an option</option>
+                <option value="VSCode">VS Code</option>
+                <option value="Atom">Atom</option>
+                <option value="NetB eans">NetBeans</option>
+            </select>
+        <div>
+
+            
+        </div>
+            <p>What is your favourite IDE?</p>
+            <select name="ide" id="ide-choice-multiple" multiple>
+                <option value="">Please choose an option</option>
+                <option value="VSCode">VS Code</option>
+                <option value="Atom">Atom</option>
+                <option value="NetB eans">NetBeans</option>
+            </select>
+        <div>
+
+        </fieldset>
+
+        <fieldset class="info">
+            <legend>Additional information</legend>
+
+            <div class="cv">   
+                <label for="file">Upload your CV</label> 
+                <input type="file" id="file" name="file" accept="">
+            </div>
+
+            <div class="letter">   
+                <label for="letter">Upload your Motivational Letter</label>
+                <input type="file" id="letter" name="file" multiple>
+            </div>
+
+            
+            <div class="letter">   
+                <label for="letter">Write your Motivational Letter</label>
+                <textarea name="letter" id="letter" rows="5" cols="50" placeholder="Please write something"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Some more examples</legend>
+            <div>
+
+                <label for="search">Search</label>
+                <input type="text" id="search" name="search">
+
+            </div>
+
+            <div>
+
+                <label for="website"></label>
+                <input type="url" id="website" name="website">
+                
+            </div>
+
+        </fieldset>
+
+        <input type="submit" value="Register">
+
+      </form>
+
+</body>
+</html>
+
+
+
+
+
