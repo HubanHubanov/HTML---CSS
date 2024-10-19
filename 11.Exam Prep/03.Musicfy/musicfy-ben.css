@@ -190,9 +190,25 @@ img.dogo {
     background: #CCCBCB;
 }
 
+.table p {
+    margin-bottom: 10px;
+}
+
 td {
     padding: 5px;
 }
+
+table {
+    border-collapse: collapse
+
+}
+
+table {
+    overflow: hidden;
+    /* border: 1px solid grey; */
+    border-radius: 8px;
+  }
+
 
 footer {
     background: black;
