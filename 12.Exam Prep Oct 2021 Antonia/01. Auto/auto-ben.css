@@ -1,0 +1,79 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+a {
+    color: inherit;
+    color: inherit;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 530;
+    margin-bottom: 15px;
+    color: #353535;
+}
+
+main {
+    display: flex;
+    gap:40px;
+    width: 85%;
+    margin: 30px auto;
+}
+
+header {
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header p {
+    opacity:0.5
+}
+
+section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+
+section h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #313131  ;
+}
+
+section p {
+    opacity: 0.5;
+}
+
+.logo-row img{
+    height: 50px;
+}
+
+.logo-row {
+    display: flex;
+    gap: 10px
+}
+
+.img {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img img {
+    height: 100%;
+}
