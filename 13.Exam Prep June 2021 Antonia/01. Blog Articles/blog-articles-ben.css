@@ -1,0 +1,134 @@
+@import url(https://kit.fontawesome.com/cef9250d3a.js);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: #66b9f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    padding: 100px 70px;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.single-card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.text-container {
+    background: #f8f8f8;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.text-container h2 {
+    color: #fda837;
+    font-size: 1rem;
+}
+
+.text-container p {
+    color: #808080;
+    font-size: 0.9rem;
+}
+
+.text-container a {
+    color: #fe9a15;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.date-time {
+    display: flex;
+    gap: 20px;
+    font-size: 0.8rem;
+}
+
+.date {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+
+
+}
+
+.time {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.single-card a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0.8;
+    position: relative;
+}
+
+.single-card a::after {
+    content: ">";
+    color:  #fe9a15;
+    /* margin-left: 10px; */
+    font-size: 1.1rem;
+    position: absolute;
+    left: 140px;
+    bottom: -3px
+}
+
+.btn {
+    background: #66b9f8;
+    padding: 20px;
+    border-radius: 40px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    margin-left: 86%;
+}
+
+.single-card:nth-of-type(3) {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    color: red;
+    bottom:225px;
+    right: 465px;
+    font-size: 22px;
+    color: rgb(237, 217, 217);
+}
