@@ -1,0 +1,125 @@
+ /* @media (max-width: 600px) {
+
+    body {
+        max-width: 600px;
+    }
+
+    .home-container {
+        display: flex;
+    }
+
+    .home-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        width: 100%;
+    }
+
+    .home-stats {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .home-stats,
+    .home-stats1,
+    .home-stats2,
+    .home-stats3 {
+        width: 100%;
+    }
+
+    .home-hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+         
+
+     */
+     /* General adjustments for mobile responsiveness */
+@media (max-width: 768px) {
+    .home-navbar {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .home-links-container {
+      margin-bottom: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .home-hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .home-hero-text-container {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .home-image1 {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .home-features {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .home-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .home-stats {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+    }
+  
+    .home-stat, .home-stat1, .home-stat2, .home-stat3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Further adjustments for smaller devices */
+  @media (max-width: 480px) {
+    .home-stats {
+      grid-template-columns: 1fr;
+    }
+  
+    .home-links-container a,
+    .home-link1, .home-link2, .home-link3 {
+      font-size: 14px;
+    }
+  
+    .Section-Heading {
+      font-size: 32px;
+    }
+  
+    .Card-Heading {
+      font-size: 18px;
+    }
+  
+    .home-cta-btn, .home-cta-btn2 {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+  
